@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  #game {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333; /* Darker border to match the theme */
+    background-color: #1e1e1e; /* Slightly lighter dark background for the game area */
+  }
+  
+  #game-output {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #333; /* Darker border */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2e2e2e; /* Slightly lighter dark background for output area */
+    color: #ffffff; /* White text color for output */
+  }
+  
+  #game-map {
+    height: 150px;
+    border: 1px solid #333; /* Darker border */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2e2e2e; /* Slightly lighter dark background for map area */
+    color: #ffffff; /* White text color for map */
+    white-space: pre; /* Preserve whitespace for ASCII map */
+    font-family: monospace; /* Monospace font for ASCII art */
+  }
+  
+  #game-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    background-color: #3e3e3e; /* Darker background for input field */
+    color: #ffffff; /* White text color for input */
+    border: 1px solid #333; /* Darker border */
+  }
+  
+  #game-submit {
+    padding: 10px;
+    background-color: #5e5e5e; /* Dark background for button */
+    color: #ffffff; /* White text color for button */
+    border: 1px solid #333; /* Darker border */
+    cursor: pointer;
+  }
+  
+  #game-submit:hover {
+    background-color: #4e4e4e; /* Slightly lighter dark background on hover */
+  }
+  
